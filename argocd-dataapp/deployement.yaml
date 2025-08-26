@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-app
+  labels:
+    app: data-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: data-app
+  template:
+    metadata:
+      labels:
+        app: data-app
+    spec:
+      containers:
+        - name: data-app
+          image: your-dockerhub-username/data-app:latest
+          ports:
+            - containerPort: 8080
+
+
+
