@@ -6,6 +6,6 @@ namespace: dataapp
 images:
 - name: rameezdocker69/dataapp
   newName: rameezdocker69/dataapp
-  newTag: 35ab82acdd81769d261e215e119c91f7e6f6f999
+  newTag: 7df5b982a11f72c9a58d862d9acb236733e1721a
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
