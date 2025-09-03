@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+
+namespace: dataapp
+
+images:
+  - name: rameezdocker69/dataapp
+    newTag: prod-123
+

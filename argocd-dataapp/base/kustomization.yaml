@@ -1,0 +1,11 @@
+
+resources:
+  - deployment.yaml
+  - service.yaml
+  - namespace.yaml
+
+images:
+  - name: rameezdocker69/dataapp
+    newTag: latest   # 🔹 overlays override this
+
+

@@ -5,7 +5,7 @@ metadata:
   labels:
     app: data-app
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: data-app
@@ -16,9 +16,8 @@ spec:
     spec:
       containers:
         - name: data-app
-          image: your-dockerhub-username/data-app:latest
+          image: rameezdocker69/dataapp:latest   # 🔹 base uses 'latest'
           ports:
-            - containerPort: 8080
-
+            - containerPort: 80
 
 
