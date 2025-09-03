@@ -3,7 +3,7 @@ resources:
 - ../../base
 - svc.yaml
 
-namespace: dev-dataapp 
+namespace: dataapp 
 
 images:
 - name: rameezdocker69/dataapp
