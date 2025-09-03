@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dataapp
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: rameezdocker69/dataapp
-    newName: rameezdocker69/dataapp
-    newTag: 7df5b982a11f72c9a58d862d9acb236733e1721a
+- name: rameezdocker69/dataapp
+  newName: rameezdocker69/dataapp
+  newTag: 8ffa6c2cfd18ea5a308f3f7376d966abd8082969
