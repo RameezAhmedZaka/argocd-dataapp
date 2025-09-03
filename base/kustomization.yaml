@@ -1,7 +1,7 @@
 
 resources:
   - deployment.yaml
-  - service.yaml
+  - svc.yaml
   - namespace.yaml
 
 images:
