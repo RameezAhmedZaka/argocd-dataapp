@@ -1,8 +1,9 @@
 
 resources:
 - ../../base
-- svc.yaml
 
+patchesStrategicMerge:
+  - svc.yaml
 namespace: dataapp 
 
 images:
