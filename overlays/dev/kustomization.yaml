@@ -1,6 +1,7 @@
 
 resources:
 - ../../base
+- svc.yaml
 
 namespace: dataapp
 
