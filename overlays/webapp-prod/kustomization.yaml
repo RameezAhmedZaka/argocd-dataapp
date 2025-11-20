@@ -1,6 +1,5 @@
 resources:
-  - ../../base/deployment.yaml
-  - ../../base/svc.yaml
+  - ../../base
 
 namespace: webapp
 
