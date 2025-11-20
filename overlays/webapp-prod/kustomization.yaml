@@ -1,6 +1,9 @@
 resources:
   - ../../base
 
+patchesStrategicMerge:
+  - svc.yaml
+
 namespace: webapp
 
 
